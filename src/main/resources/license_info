@@ -1,0 +1,13 @@
+The source code (and binaries) for the Wooting APIs that are used in this project can be found at the following websites:
+https://github.com/WootingKb/wooting-analog-sdk
+https://github.com/WootingKb/wooting-rgb-sdk
+
+The license file "wooting_analog_license" applies to the following files:
+/natives/gud_wootingcraft/linux/amd64/libwooting_analog_wrapper.so
+/natives/gud_wootingcraft/osx/amd64/libwooting_analog_wrapper.dylib
+/natives/gud_wootingcraft/windows/amd64/wooting_analog_wrapper.dll
+
+The license file "wooting_rgb_license" applies to the following files:
+/natives/gud_wootingcraft/linux/amd64/libwooting-rgb-sdk.so
+/natives/gud_wootingcraft/osx/amd64/libwooting-rgb-sdk.dylib
+/natives/gud_wootingcraft/windows/amd64/wooting-rgb-sdk.dll

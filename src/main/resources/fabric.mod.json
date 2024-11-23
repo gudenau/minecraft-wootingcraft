@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "gud_wootingcraft",
+  "version": "${version}",
+  "name": "WootingCraft",
+  "description": "Adds support for Wooting keyboards to Minecraft.",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "LGLP",
+  "icon": "assets/gud_wootingcraft/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.gudenau.minecraft.wootingcraft.WootingCraft"
+    ]
+  },
+  "mixins": [
+    "gud_wootingcraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": ">=1.21.3",
+    "java": ">=22",
+    "fabric-api": "*"
+  }
+}
