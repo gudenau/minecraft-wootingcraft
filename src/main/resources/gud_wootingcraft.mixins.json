@@ -12,6 +12,5 @@
   ],
   "injectors": {
     "defaultRequire": 1
-  },
-  "plugin": "net.gudenau.minecraft.wootingcraft.mixin.Plugin"
+  }
 }
